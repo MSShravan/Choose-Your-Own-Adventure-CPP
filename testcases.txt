@@ -1,0 +1,62 @@
+ec:step1
+
+cyoa-step1
+cyoa-step1 step1 step2
+cyoa-step1 step1
+cyoa-step1 step1/pageNumOnlyChars
+cyoa-step1 step1/pageNumSpaceAfter
+cyoa-step1 step1/pageNumSpaceInBetween
+cyoa-step1 step1/pageNumMixChar
+cyoa-step1 step1/fileNotExists
+cyoa-step1 step1/pageTypeMultiChars
+cyoa-step1 step1/pageTypeEmpty
+cyoa-step1 step1/pageTypeNotFound
+cyoa-step1 step1/multiDelim
+cyoa-step1 step1/noDilim
+cyoa-step1 step1/lessDelim
+cyoa-step1 step1/noChoices
+cyoa-step1 step1/onlyChoices
+cyoa-step1 step1/blankLines
+cyoa-step1 step1/destPageNumOnlyChars
+cyoa-step1 step1/destPageNumSpaceAfter
+cyoa-step1 step1/destPageNumSpaceInBetween
+cyoa-step1 step1/destPageNumMixChars
+cyoa-step1 step1/destPageNumOverMax
+cyoa-step1 step1/pageNumOverMax
+cyoa-step1 step1/pageNumSpaceBefore
+cyoa-step1 step1/destPageNumSpaceBefore
+
+ec:step2
+cyoa-step2
+cyoa-step2 step1 step2
+cyoa-step2 step2
+cyoa-step2 step2/pageZeroMissing
+cyoa-step2 step2/noReference
+cyoa-step2 step2/noWin
+cyoa-step2 step2/noLose
+cyoa-step2 step2/destPageNumMissing
+cyoa-step2 step2/pageNumNotInOrder
+cyoa-step2 step4/page0TypeIsW < step4/page0TypeIsW/input0.txt
+
+ec:step3
+cyoa-step3
+cyoa-step3 step1 step2
+cyoa-step3 step3/commonNode
+cyoa-step3 step3/noWin
+cyoa-step3 step3/samePathDiffChoices
+cyoa-step3 step4/page0TypeIsW < step4/page0TypeIsW/input0.txt
+
+ec:step4
+cyoa-step4
+cyoa-step4 step1 step2
+cyoa-step4 step4/condChoiceMultipleEquals
+cyoa-step4 step4/varDeclaredForInvalidPageNum
+cyoa-step4 step4/choiceHasNoText < step4/choiceHasNoText/input0.txt
+cyoa-step4 step4/page0TypeIsW < step4/page0TypeIsW/input0.txt
+cyoa-step4 step4/pageNumIsNegative
+cyoa-step4 step4/sameVarMultiDeclared/ < step4/sameVarMultiDeclared/input0.txt
+cyoa-step4 step4/varNameIsEmpty < step4/varNameIsEmpty/input0.txt
+cyoa-step4 step4/varNameIsEmpty < step4/varNameIsEmpty/input1.txt
+cyoa-step4 step4/varNameIsEmpty < step4/varNameIsEmpty/input2.txt
+cyoa-step4 step4/varNameIsEmpty < step4/varNameIsEmpty/input3.txt
+cyoa-step4 step4/varNegative < step4/varNegative/input0.txt
